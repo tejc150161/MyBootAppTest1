@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>jp.te4a.spring.boot</groupId>
-	<artifactId>MyBootApp13</artifactId>
+	<artifactId>MyBootAppTest1</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>MyBootApp13</name>
+	<name>MyBootAppTest1</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -81,7 +81,13 @@
     		<groupId>org.springframework.data</groupId>
     		<artifactId>spring-data-commons-core</artifactId>
     		<version>1.4.1.RELEASE</version>
-		</dependency>		
+		</dependency>
+			
+		<dependency>
+    		<groupId>junit</groupId>
+    		<artifactId>junit</artifactId>
+    		<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
